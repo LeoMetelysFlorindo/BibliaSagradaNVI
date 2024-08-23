@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutConf"
+    android:background="@drawable/TelaN"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">    
+    <TextView
+        android:text="@+string/MÊS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:id="@+id/TxtMES"
+        android:layout_marginTop="10px"
+        android:fontFamily="Futura Bk BT" />
+    <TextView
+        android:text="@+string/DIA DO MÊS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:id="@+id/TxtDIA"
+        android:layout_marginTop="10px"
+        android:fontFamily="Futura Bk BT" />
+    <Button
+        android:background="@drawable/BotaoAnt"
+        android:layout_width="80sp"
+        android:layout_height="50sp"
+        android:id="@+id/BtnAnt"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="50px" />
+    <Button
+        android:background="@drawable/BotaoProx"
+        android:layout_width="80sp"
+        android:layout_height="50sp"
+        android:id="@+id/BtnProx"
+        android:layout_marginTop="-190px"
+        android:layout_marginLeft="1090px" />
+    <TextView
+        android:text="@+string/GÊNESIS 1-3"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/TxtLeitura1"
+        android:textColor="#fff"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:layout_marginTop="90px"
+        android:fontFamily="Tahoma"
+        android:gravity="center" />
+    <TextView
+        android:text="@+string/Matheus 1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:layout_marginTop="20px"
+        android:gravity="center"
+        android:fontFamily="Tahoma"
+        android:id="@+id/txtLeitura2" />    
+    <TextView
+        android:text="@+string/Senhor, alarga os meus horizontes. Quero fazer parte da tua obra."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/TxtOracao"
+        android:textColor="#fff"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:layout_marginTop="90px"
+        android:fontFamily="Tahoma"
+        android:gravity="center" />
+    <Button
+        android:background="@drawable/Compartilhar"
+        android:layout_width="60sp"
+        android:layout_height="40sp"
+        android:id="@+id/BtnPrint"
+        android:layout_marginTop="140px"
+        android:layout_marginLeft="600px" />
+    <Button
+        android:text="Voltar"
+        android:onClick="btnSalvar2Clicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFechar"
+        android:layout_marginTop="110px" />
+</LinearLayout>

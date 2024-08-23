@@ -1,0 +1,4 @@
+Button;obj\\110\res\layout\main.xml
+LinearLayout;obj\\110\res\layout\main.xml
+resources;obj\\110\res\values\strings.xml
+string;obj\\110\res\values\strings.xml

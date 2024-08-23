@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/TelaN"
+    android:layout_height="match_parent">
+    <Button
+        android:background="@drawable/BotaoAT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="50dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/btnOrdem"
+        android:onClick="btnOrdemRClicked"/>
+    <Button
+        android:background="@drawable/BotaoNT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/btnP1"
+        android:onClick="btnPlano1Clicked"/>    
+    <Button
+        android:background="@drawable/BotaoSair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="65dp"
+        android:id="@+id/btnSair"
+        android:onClick="btnSairClicked"/>
+</LinearLayout>

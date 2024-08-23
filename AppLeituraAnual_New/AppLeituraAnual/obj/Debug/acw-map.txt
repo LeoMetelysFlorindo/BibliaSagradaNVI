@@ -1,0 +1,8 @@
+AppLeituraAnual.Apresenta, AppLeituraAnual;md589596572d28e9e22287dbe8c1cb6e2fa.Apresenta
+AppLeituraAnual.Apresenta, AppLeituraAnual, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md589596572d28e9e22287dbe8c1cb6e2fa.Apresenta
+AppLeituraAnual.Apresenta;md589596572d28e9e22287dbe8c1cb6e2fa.Apresenta
+appleituraanual.Apresenta;md589596572d28e9e22287dbe8c1cb6e2fa.Apresenta
+AppLeituraAnual.MainActivity, AppLeituraAnual;md589596572d28e9e22287dbe8c1cb6e2fa.MainActivity
+AppLeituraAnual.MainActivity, AppLeituraAnual, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md589596572d28e9e22287dbe8c1cb6e2fa.MainActivity
+AppLeituraAnual.MainActivity;md589596572d28e9e22287dbe8c1cb6e2fa.MainActivity
+appleituraanual.MainActivity;md589596572d28e9e22287dbe8c1cb6e2fa.MainActivity

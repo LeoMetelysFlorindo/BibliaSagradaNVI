@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/TelaN"
+    android:minWidth="25px"
+    android:minHeight="25px">
+  <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/linearLayout2">
+    <TextView
+        android:text="ANTIGO TESTAMENTO"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginLeft="25px"
+        android:layout_marginTop="15px" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnDados" />
+    <TextView
+       android:text="CAPÍTULOS:"
+       android:textStyle="bold"
+       android:textAppearance="?android:attr/textAppearanceMedium"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/textView2"
+	   android:visibility="invisible"
+       android:layout_marginTop="20px" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:visibility="invisible"
+        android:id="@+id/spnDados2" />
+     <Button
+        android:text="Voltar"
+        android:onClick="btnSalvarClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFechar"
+        android:layout_marginTop="110px" /> 
+  </LinearLayout>
+</ScrollView>
